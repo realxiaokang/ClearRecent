@@ -23,6 +23,7 @@ namespace ClearRecent
             new ClearMissingRecentFiles(this);
             new ClearAllRecentProjects(this);
             new ClearMissingRecentProjects(this);
+            new ClearNonFavoriteProjects(this);
         }
     }
 }

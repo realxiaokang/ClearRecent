@@ -36,6 +36,12 @@
           <ButtonText>Clear missing</ButtonText>
         </Strings>
       </Button>
+      <Button guid="guidMenuGroup" id="idClearNonFavoriteProjects" priority="0x0102" type="Button">
+        <Parent guid="guidMenuGroup" id="idRecentProjects" />
+        <Strings>
+          <ButtonText>Clear non-favorites</ButtonText>
+        </Strings>
+      </Button>
     </Buttons>
   </Commands>
   <Symbols>
@@ -47,6 +53,7 @@
       <IDSymbol name="idClearMissingRecentFiles" value="0x0101" />
       <IDSymbol name="idClearAllRecentProjects" value="0x0102" />
       <IDSymbol name="idClearMissingRecentProjects" value="0x0103" />
+      <IDSymbol name="idClearNonFavoriteProjects" value="0x0104" />
     </GuidSymbol>
   </Symbols>
 </CommandTable>
